@@ -92,7 +92,7 @@ procedure main()
     atom halfpi = PI / 2
     integer myage = 42
     
-    printf( STDOUT, "twopi = %0.10\n", {twopi} )
+    printf( STDOUT, "twopi = %0.10f\n", {twopi} )
     printf( STDOUT, "halfpi = %g\n", {halfpi} )
     printf( STDOUT, "myage is %d\n", {myage} )
     
